@@ -41,15 +41,4 @@ while True:
          print(" ")
     
     
-     elif a=="what is today":
-         k=now.strftime("Today is %A %d/%m/%y" )
-         print(k)
-         speak(k)
-     elif a=="time now":
-         k1=now.strftime("it's %-I:%-M %P")
-         print(k1)
-         speak(k1)
-     else:    
-         result = wikipedia.summary(a, sentences = 2) 
-         print(result)
-         speak(result)
+     
