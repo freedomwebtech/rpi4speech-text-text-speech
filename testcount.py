@@ -37,8 +37,7 @@ def speech_to_text():
 while True:        
      a=str(speech_to_text())        
      print(a)
-     if a=='None':
-         print(" ")
+     
     
     
      
